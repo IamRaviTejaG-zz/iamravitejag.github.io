@@ -23,6 +23,12 @@ h1 a:hover
     text-decoration: none;
 }
 
+img
+{
+    min-width: 25%;
+    max-width: 30%;
+}
+
 h3
 {
     color: white;
