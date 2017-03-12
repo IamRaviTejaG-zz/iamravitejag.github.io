@@ -1,0 +1,50 @@
+/* CSS for index.html on iamravitejag.github.io */
+/* Last Update: 12 March 2017. */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script');
+
+body
+{
+    background-color: #211e12;
+}
+
+h1
+{
+    font-family: 'Kaushan Script';
+    color: white;
+    font-size: 600%;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 a:hover
+{
+    color: #f3f9f8;
+    text-decoration: none;
+}
+
+h3
+{
+    color: white;
+    font-size: Large;
+    font-family: Comfortaa;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#rightFooter
+{
+    color: white;
+    font-family: Comfortaa;
+    font-size: 60%;
+    text-align: right;
+}
