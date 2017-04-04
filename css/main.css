@@ -30,6 +30,12 @@ h3
     font-family: Comfortaa;
 }
 
+h3 a:hover
+{
+	color: #f3f9f8;
+	text-decoration: none;
+}
+
 a
 {
     color: white;
