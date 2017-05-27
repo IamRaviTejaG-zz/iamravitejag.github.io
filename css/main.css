@@ -1,7 +1,103 @@
 /* CSS for index.html on iamravitejag.github.io */
-/* Last Update: 12 March 2017. */
+/* Last Update: 27 May 2017. */
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script');
+
+@media(max-width: 768px)
+{
+    h1
+    {
+        font-size: 200%;
+    }
+    h3
+    {
+        font-size: 100%;
+    }
+    img
+    {
+        max-width: 20px;
+    }
+    .space1
+    {
+        height: 20px;
+    }
+    .space2
+    {
+        height: 5px;
+    }
+}
+
+@media(min-width: 768px)
+{
+    h1
+    {
+        font-size: 300%;
+    }
+    h3
+    {
+        font-size: 100%;
+    }
+    img
+    {
+        max-width: 30px;
+    }
+    .space1
+    {
+        height: 30px;
+    }
+    .space2
+    {
+        height: 8px;
+    }
+}
+
+@media(min-width: 992px)
+{
+    h1
+    {
+        font-size: 400%;
+    }
+    h3
+    {
+        font-size: 120%;
+    }
+    img
+    {
+        max-width: 40px;
+    }
+    .space1
+    {
+        height: 40px;
+    }
+    .space2
+    {
+        height: 12px;
+    }
+}
+
+@media(min-width: 1200px)
+{
+    h1
+    {
+        font-size: 500%;
+    }
+    h3
+    {
+        font-size: 140%;
+    }
+    img
+    {
+        max-width: 50px;
+    }
+    .space1
+    {
+        height: 50px;
+    }
+    .space2
+    {
+        height: 15px;
+    }
+}
 
 body
 {
@@ -12,7 +108,6 @@ h1
 {
     font-family: 'Kaushan Script';
     color: white;
-    font-size: 600%;
     font-weight: bold;
     text-align: center;
 }
@@ -26,8 +121,8 @@ h1 a:hover
 h3
 {
     color: white;
-    font-size: Large;
     font-family: Comfortaa;
+    text-align: center;
 }
 
 h3 a:hover
@@ -47,6 +142,7 @@ a:hover
     text-decoration: underline;
 }
 
+/*
 #rightFooter
 {
     color: white;
@@ -54,3 +150,4 @@ a:hover
     font-size: 60%;
     text-align: right;
 }
+*/
