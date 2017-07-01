@@ -1,153 +1,136 @@
-/* CSS for index.html on iamravitejag.github.io */
-/* Last Update: 27 May 2017. */
+/* CSS for index.html on iamravitejag.github.io
+Last Update: 01 July 2017. */
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Kaushan+Script');
 
-@media(max-width: 768px)
-{
-	h1
-	{
+@media(max-width: 768px) {
+	h1 {
 		font-size: 200%;
 	}
-	h3
-	{
+	h3 {
 		font-size: 100%;
 	}
-	img
-	{
+	h5 {
+        font-size: 70%;
+	}
+	img {
 		max-width: 20px;
 	}
-	.space1
-	{
+	.space1 {
 		height: 20px;
 	}
-	.space2
-	{
+	.space2 {
 		height: 5px;
 	}
 }
 
-@media(min-width: 768px)
-{
-	h1
-	{
+@media(min-width: 768px) {
+	h1 {
 		font-size: 300%;
 	}
-	h3
-	{
+	h3 {
 		font-size: 100%;
 	}
-	img
-	{
+	h5 {
+        font-size: 80%;
+	}
+	img {
 		max-width: 30px;
 	}
-	.space1
-	{
+	.space1 {
 		height: 30px;
 	}
-	.space2
-	{
+	.space2 {
 		height: 8px;
 	}
 }
 
-@media(min-width: 992px)
-{
-	h1
-	{
+@media(min-width: 992px) {
+	h1 {
 		font-size: 400%;
 	}
-	h3
-	{
+	h3 {
 		font-size: 120%;
 	}
-	img
-	{
+	h5 {
+        font-size: 90%;
+	}
+	img {
 		max-width: 40px;
 	}
-	.space1
-	{
+	.space1	{
 		height: 40px;
 	}
-	.space2
-	{
+	.space2	{
 		height: 12px;
 	}
 }
 
-@media(min-width: 1200px)
-{
-	h1
-	{
+@media(min-width: 1200px) {
+	h1 {
 		font-size: 500%;
 	}
-	h3
-	{
+	h3 {
 		font-size: 140%;
 	}
-	img
-	{
+	h5 {
+        font-size: 100%;
+	}
+	img {
 		max-width: 50px;
 	}
-	.space1
-	{
+	.space1	{
 		height: 50px;
 	}
-	.space2
-	{
+	.space2	{
 		height: 15px;
 	}
 }
 
-body
-{
+body {
 	background-color: #211e12;
+	background-image: url('images/bg.jpg');
 }
 
-h1
-{
-	font-family: 'Kaushan Script';
+h1 {
 	color: white;
+	font-family: 'Kaushan Script';
 	font-weight: bold;
 	text-align: center;
 }
 
-h1 a:hover
-{
-	color: #f3f9f8;
+h1 a:hover {
+	color: #9F9896;
 	text-decoration: none;
 }
 
-h3
-{
+h3 {
 	color: white;
-	font-family: Comfortaa;
+	font-family: Oxygen;
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 }
 
-h3 a:hover
-{
-	color: #f3f9f8;
+h3 a:hover {
+	color: #9F9896;
 	text-decoration: none;
 }
 
-a
-{
+h5 {
+	color: white;
+	font-family: Oxygen;
+	margin-top: -5px;
+	text-align: center;
+	text-decoration: none;
+	visibility: hidden;
+}
+
+a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover
-{
+a:hover {
 	text-decoration: underline;
 }
-
-/*
-#rightFooter
-{
-	color: white;
-	font-family: Comfortaa;
-	font-size: 60%;
-	text-align: right;
-}
-*/
