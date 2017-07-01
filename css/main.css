@@ -1,7 +1,7 @@
 /* CSS for index.html on iamravitejag.github.io
 Last Update: 01 July 2017. */
 
-@import url('https://fonts.googleapis.com/css?family=Oxygen|Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Dancing+Script');
 
 @media(max-width: 768px) {
 	h1 {
@@ -89,12 +89,11 @@ Last Update: 01 July 2017. */
 
 body {
 	background-color: #211e12;
-	background-image: url('images/bg.jpg');
 }
 
 h1 {
 	color: white;
-	font-family: 'Kaushan Script';
+	font-family: 'Dancing Script';
 	font-weight: bold;
 	text-align: center;
 }
