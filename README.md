@@ -9,4 +9,4 @@
 
 <!--2. The footer (the copyright text) does not show up on the bottom right side on all resolutions. This has something to do with the **br** tags mostly. Need to find an alternative for vertical spacing instead of using **br** tags.-->
 
-_Now, with Bootstrap & jQuery!_
+_Now with Bootstrap & jQuery!_

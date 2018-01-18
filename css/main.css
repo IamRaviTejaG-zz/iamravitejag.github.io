@@ -1,17 +1,17 @@
 /* CSS for index.html on iamravitejag.github.io
-Last Update: 29 July 2017. */
+Last Update: 18 January 2018. */
 
-@import url('https://fonts.googleapis.com/css?family=Oxygen|Kaushan+Script|Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One');
 
 @media(max-width: 768px) {
 	h1 {
 		font-size: 200%;
 	}
 	h3 {
-		font-size: 100%;
+		font-size: 130%;
 	}
 	h5 {
-        font-size: 70%;
+    font-size: 100%;
 	}
 	img {
 		max-width: 20px;
@@ -29,10 +29,10 @@ Last Update: 29 July 2017. */
 		font-size: 300%;
 	}
 	h3 {
-		font-size: 100%;
+		font-size: 140%;
 	}
 	h5 {
-        font-size: 80%;
+    font-size: 100%;
 	}
 	img {
 		max-width: 30px;
@@ -47,13 +47,13 @@ Last Update: 29 July 2017. */
 
 @media(min-width: 992px) {
 	h1 {
-		font-size: 400%;
+		font-size: 350%;
 	}
 	h3 {
-		font-size: 120%;
+		font-size: 140%;
 	}
 	h5 {
-        font-size: 90%;
+    font-size: 110%;
 	}
 	img {
 		max-width: 40px;
@@ -68,13 +68,13 @@ Last Update: 29 July 2017. */
 
 @media(min-width: 1200px) {
 	h1 {
-		font-size: 500%;
+		font-size: 450%;
 	}
 	h3 {
-		font-size: 140%;
+		font-size: 160%;
 	}
 	h5 {
-        font-size: 100%;
+    font-size: 120%;
 	}
 	img {
 		max-width: 50px;
@@ -88,12 +88,17 @@ Last Update: 29 July 2017. */
 }
 
 body {
-	background-color: #211e12;
+	background: #000000;
+	background: -moz-linear-gradient(-45deg, #000000 0%, #45484d 100%);
+	background: -webkit-linear-gradient(-45deg, #000000 0%,#45484d 100%);
+	background: linear-gradient(135deg, #000000 0%,#45484d 100%);
+	background-attachment:fixed;
+	height:100%;
 }
 
 h1 {
 	color: white;
-	font-family: 'Dancing Script';
+	font-family: Cinzel;
 	font-weight: bold;
 	text-align: center;
 }
@@ -105,7 +110,7 @@ h1 a:hover {
 
 h3 {
 	color: white;
-	font-family: Oxygen;
+	font-family: 'Julius Sans One';
 	text-align: center;
 }
 
@@ -116,7 +121,7 @@ h3 a:hover {
 
 h5 {
 	color: white;
-	font-family: Oxygen;
+	font-family: 'Julius Sans One';
 	margin-top: -5px;
 	text-align: center;
 	text-decoration: none;
