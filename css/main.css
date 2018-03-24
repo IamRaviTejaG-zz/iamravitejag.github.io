@@ -1,5 +1,5 @@
 /* CSS for index.html on iamravitejag.github.io
-Last Update: 17 March 2018. */
+Last Update: 24 March 2018. */
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One');
 
@@ -100,12 +100,7 @@ Last Update: 17 March 2018. */
 }
 
 body {
-	background: #000000;
-	background: -moz-linear-gradient(-45deg, #000000 0%, #45484d 100%);
-	background: -webkit-linear-gradient(-45deg, #000000 0%,#45484d 100%);
-	background: linear-gradient(135deg, #000000 0%,#45484d 100%);
-	background-attachment:fixed;
-	height:100%;
+	background: #111111;
 }
 
 h1 {
