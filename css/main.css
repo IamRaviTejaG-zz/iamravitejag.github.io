@@ -1,5 +1,5 @@
 /* CSS for index.html on iamravitejag.github.io
-Last Update: 21 July 2018. */
+Last Update: 26 July 2018. */
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One');
 
@@ -110,7 +110,7 @@ h1 {
 	text-align: center;
 }
 
-h1 a:hover {
+h1 a:hover, h5 a:hover {
 	color: #9F9896;
 	text-decoration: none;
 }
@@ -133,6 +133,10 @@ h5 {
 	text-align: center;
 	text-decoration: none;
 }
+
+/* h5 a:hover {
+	text-decoration: none;
+} */
 
 a {
 	color: white;
